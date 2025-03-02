@@ -2,20 +2,20 @@
 This project is a Linux kernel module that intercepts network packets, logs their source IP addresses, and blocks IPs based on SYN/RST packet counts and total packet volume.It is designed to enhance network security by detecting and mitigating potential threats.
 
 ## Features
-- **Packet Logging**: Logs the source IP address, SYN count, RST count, and total packet count for each intercepted packet.
-- **IP Blocking**: Blocks IP addresses that exceed a specified threshold for SYN/RST packets or total packet volume.
-- **Dynamic Blocking**: Blocks IPs for a configurable duration (default: 1 minute).
+- Packet Logging: Logs the source IP address, SYN count, RST count, and total packet count for each intercepted packet.
+- IP Blocking: Blocks IP addresses that exceed a specified threshold for SYN/RST packets or total packet volume.
+- Dynamic Blocking: Blocks IPs for a configurable duration (default: 1 minute).
 
 ## Prerequisites
-- **Linux Environment**: A Linux system with kernel headers installed.
-- **Compiler Tools**: GCC, make, and other essential build tools.
-- **Root Access**: Required to load and unload kernel modules.
+- Linux Environment: A Linux system with kernel headers installed.
+- Compiler Tools: GCC, make, and other essential build tools.
+- Root Access: Required to load and unload kernel modules.
 
 ## How to Run
 
 1. Clone the Repository:
-   bash
-   git clone https://github.com/your-username/ip-blocking-module.git
+   
+   git clone [https://github.com/your-username/ip-blocking-module.git](https://github.com/danielkorik/IP-Blocking-Kernel-Module-project.git)
    cd ip-blocking-module]
 
 2. Compile the Module: 

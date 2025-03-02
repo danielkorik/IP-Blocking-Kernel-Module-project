@@ -146,6 +146,5 @@ static void __exit my_cleanup_module(void) {
 
     printk(KERN_INFO "IP Blocking Module: Module Unloaded\n");
 }
-
 module_init(my_init_module);
 module_exit(my_cleanup_module);
